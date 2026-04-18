@@ -1,0 +1,7 @@
+[
+  {"tool": "weather",  "args": {"location": "string", "unit": "C|F"}},
+  {"tool": "calendar", "args": {"action": "list|create", "date": "YYYY-MM-DD", "title": "string?"}},
+  {"tool": "convert",  "args": {"value": "number", "from_unit": "string", "to_unit": "string"}},
+  {"tool": "currency", "args": {"amount": "number", "from": "ISO3", "to": "ISO3"}},
+  {"tool": "sql",      "args": {"query": "string"}}
+]
